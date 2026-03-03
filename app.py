@@ -20,7 +20,7 @@ def _get_secret(name: str) -> str | None:
     return os.getenv(name)
 
 
-API_KEY = _get_secret("ELSEVIER_API_KEY")
+API_KEY = _get_secret("e41082bd17ee1c978f3f97f017d7c93b")
 INST_TOKEN = _get_secret("ELSEVIER_INST_TOKEN")
 
 
